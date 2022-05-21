@@ -1,4 +1,4 @@
-defmodule Bingo.Buzzwords do
+defmodule BuzzwordBingo.Buzzwords do
   @doc """
   Reads a CSV file of buzzwords and their respective point values.
 
