@@ -53,7 +53,7 @@ defmodule BuzzwordBingo.BingoChecker do
 
   ## Example
       iex> m = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-      iex> Bingo.BingoChecker.transpose(m)
+      iex> BuzzwordBingo.BingoChecker.transpose(m)
       [[1, 4, 7], [2, 5, 8], [3, 6, 9]]
   """
   def transpose(squares) do
@@ -67,7 +67,7 @@ defmodule BuzzwordBingo.BingoChecker do
 
   ## Example
       iex> m = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-      iex> Bingo.BingoChecker.rotate_90_degrees(m)
+      iex> BuzzwordBingo.BingoChecker.rotate_90_degrees(m)
       [[3, 6, 9], [2, 5, 8], [1, 4, 7]]
   """
   def rotate_90_degrees(squares) do
@@ -81,7 +81,7 @@ defmodule BuzzwordBingo.BingoChecker do
 
   ## Example
       iex> m = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-      iex> Bingo.BingoChecker.left_diagonal_squares(m)
+      iex> BuzzwordBingo.BingoChecker.left_diagonal_squares(m)
       [1, 5, 9]
   """
   def left_diagonal_squares(squares) do
@@ -95,7 +95,7 @@ defmodule BuzzwordBingo.BingoChecker do
 
   ## Example
       iex> m = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-      iex> Bingo.BingoChecker.right_diagonal_squares(m)
+      iex> BuzzwordBingo.BingoChecker.right_diagonal_squares(m)
       [3, 5, 7]
   """
   def right_diagonal_squares(squares) do
