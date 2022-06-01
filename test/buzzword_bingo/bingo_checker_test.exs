@@ -229,5 +229,4 @@ defmodule BingoCheckerTest do
   defp sq(phrase, marked_by \\ nil) do
     %Square{phrase: phrase, points: 10, marked_by: marked_by}
   end
-
 end

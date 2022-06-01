@@ -32,7 +32,7 @@ defmodule BuzzwordBingo.GameServer do
   Returns a tuple used to register and lookup a game server process by name.
   """
   def via_tuple(game_name) do
-    {:via, Registry, {Bingo.GameRegistry, game_name}}
+    {:via, Registry, {BuzzwordBingo.GameRegistry, game_name}}
   end
 
   @doc """
