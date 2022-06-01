@@ -7,9 +7,6 @@
 # General application configuration
 import Config
 
-config :buzzword_bingo,
-  ecto_repos: [BuzzwordBingo.Repo]
-
 # Configures the endpoint
 config :buzzword_bingo, BuzzwordBingoWeb.Endpoint,
   url: [host: "localhost"],
